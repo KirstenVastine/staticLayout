@@ -1,0 +1,309 @@
+/* Below is for the navbar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 83px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 205px auto 104px;
+    grid-column-gap: 40px;
+    padding: 19px 20px;
+    z-index: 900;
+    transition: top 0.3s ease-in-out;
+}
+
+body {
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434146;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Below is for the Kast Icon in the top left corner. */
+/* .logo-container {
+    width: 200px;
+    height: auto;
+    top: 19px;
+    left: 20px;
+    z-index: 70;
+    transition: transform 0.3s;
+    display: block;
+    padding: 0; 
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+} */
+
+.Kast-Logo {
+    display: flex;
+    justify-content: left;
+    height: 15%;
+    width: 15%;
+    align-content: flex-start;
+    z-index: 2;
+}
+
+.space-between {
+    display: flex;
+    align-content: center;
+    height: 15%;
+    width: 60%;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 15vw;
+    width: 25vw;
+    align-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+/* Above is for the Kast Icon in the top left corner */
+
+/* .logo-container .Kast-Logo {
+    width: 20%;
+
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+} */
+/* This in for the navbar links...
+.navbar-nav {
+    justify-content: flex-end;
+    width: 100%;
+} */
+
+/* Below is for the main content on the first view height. */
+
+.main-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-picture {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    border: 3px;
+    padding: 10px;
+}
+
+.main-picture img {
+    position: absolute;
+    height: 500px;
+    width: auto;
+    top: 10%;
+    left: 25%;
+}
+
+
+/* This is for Watch Parties Made Easy h1. */
+
+.parties {
+    text-align: center;
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.Main-Text {
+      color: white;
+      z-index: 6;
+      position: absolute;
+      height: 300px;
+      top: 700px;
+      left: 500px;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+.Main-Button {
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    min-width: 215px;
+    text-transform: uppercase;
+    padding: 0 16px;
+    font-weight: bold;
+    letter-spacing: 1.44px;
+    border-radius: 3px;
+    background: #FE9000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    color: #ffffff;
+    box-sizing: border-box;
+    font: normal 14px/1.8 "Roboto", sans-serif;
+}
+
+
+/* .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.dropdown-content {
+      display: none;
+
+  } */
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  nav {
+     display: flex;
+  }
+
+ /* #top-front-page {
+     background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+     width: 100vw;
+ } */
+
+ #top-front-page {
+     width: 100vw;
+     height: 300px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 0;
+ }
+
+ #top-front-page img {
+     height: 95vh;
+     width: 100vw;
+     z-index: 0;
+ }
+
+ /* Below is the Flexbox for the Second view height */
+
+ /* .second-view-height {
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+} */
+
+#Featured-in {
+    margin-bottom: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434146;
+    display: flex;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    top: 900px;
+    left: 48%;
+}
+
+
+
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     flex-flow: row wrap;
+     align-items: center;
+     margin: auto;
+     height: 100px;
+     width: 800px;
+     background: white;
+     position: absolute;
+     top: 1000px;
+     left: 30%;
+ }
+
+ .second-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    position: absolute;
+    top: 1100px;
+    left: 30%;
+ }
+
+ .second-view-height {
+    background-color: white;
+    height: 20%;
+    width: 100vw;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nav {
+    display: flex;
+
+}
+
