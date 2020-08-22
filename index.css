@@ -230,12 +230,6 @@ h1 {
 
  /* Below is the Flexbox for the Second view height */
 
- /* .second-view-height {
-    background-color: white;
-    height: 100vw;
-    width: 100vw;
-} */
-
 #Featured-in {
     margin-bottom: 60px;
     font-size: 30px;
@@ -307,3 +301,29 @@ h1 {
 
 }
 
+.quote {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 12px;
+    position: absolute;
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434146;
+    top: 1350px;
+    left: 35%;
+}
+
+.yahoo {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0;
+    color: #414854;
+    display: block;
+    position: absolute;
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: #fff;
+    position: absolute;
+    top: 1400px;
+    left: 60%;
+}
